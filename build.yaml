@@ -19,13 +19,13 @@
 #
 ---
 include:
-- board: seeeduino_xiao_ble
-  shield: flatten43tb_R rgbled_adapter
-  snippet: studio-rpc-usb-uart
-  artifact-name: flatten43tb_R
-- board: seeeduino_xiao_ble
-  shield: flatten43tb_L rgbled_adapter
-  artifact-name: flatten43tb_L
-- board: seeeduino_xiao_ble
-  shield: settings_reset
-  artifact-name: settings_reset
+  - board: seeeduino_xiao_ble
+    # shield: flatten43tb_R rgbled_adapter
+    snippet: studio-rpc-usb-uart
+    artifact-name: flatten43tb_R
+  - board: seeeduino_xiao_ble
+    # shield: flatten43tb_L rgbled_adapter
+    artifact-name: flatten43tb_L
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: settings_reset
