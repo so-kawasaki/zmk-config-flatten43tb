@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LEFT SHIFT}
+  - S
   - D
   - F
   - G
