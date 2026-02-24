@@ -1,0 +1,6 @@
+if SHIELD_RGBLED_ADAPTER
+
+config ZMK_KEYBOARD_NAME
+    default "rgbled_adapter"
+
+endif
