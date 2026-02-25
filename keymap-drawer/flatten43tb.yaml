@@ -218,7 +218,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ARROW, h: toggle}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ARROW, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
