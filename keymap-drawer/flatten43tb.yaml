@@ -311,5 +311,7 @@ layers:
 combos:
 - p: [19, 20]
   k: SCROLL
+  l: [default]
 - p: [13, 12]
   k: SCROLL
+  l: [default]
