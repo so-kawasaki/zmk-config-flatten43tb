@@ -89,41 +89,41 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W             &kp E           &kp R           &kp T                                                          &kp Y                &kp U            &kp I            &kp O              &kp P
-&kp A      &mt LEFT_SHIFT S  &mt LEFT_ALT D  &mt LEFT_WIN F  &mt LEFT_CONTROL G  &kp LS(LG(S))               &kp SQT        &mt RIGHT_CONTROL H  &mt RIGHT_WIN J  &mt RIGHT_ALT K  &mt RIGHT_SHIFT L  &kp MINUS
-&kp Z      &kp X             &kp C           &kp V           &kp B               &kp COLON                   &kp SEMICOLON  &kp N                &kp M            &kp COMMA        &kp DOT            &kp SLASH
-&kp LCTRL  &kp LEFT_WIN      &kp LEFT_ALT    &kp BACKSPACE   &lt 1 LANGUAGE_1    &lt_to_layer_0 2 SPACE      &kp ENTER      &lt 3 LANGUAGE_2                                                          &kp DEL
+&kp Q  &kp W             &kp E           &kp R           &kp T                                                      &kp Y                &kp U            &kp I            &kp O              &kp P
+&kp A  &mt LEFT_SHIFT S  &mt LEFT_ALT D  &mt LEFT_WIN F  &mt LEFT_CONTROL G  &none                       &none      &mt RIGHT_CONTROL H  &mt RIGHT_WIN J  &mt RIGHT_ALT K  &mt RIGHT_SHIFT L  &kp MINUS
+&kp Z  &kp X             &kp C           &kp V           &kp B               &none                       &none      &kp N                &kp M            &kp COMMA        &kp DOT            &kp SLASH
+&none  &none             &none           &kp BACKSPACE   &lt 1 LANGUAGE_1    &lt_to_layer_0 2 SPACE      &kp ENTER  &lt 3 LANGUAGE_2                                                          &none
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
         };
 
-        FUNCTION {
+        NUMBER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp C_BRI_DEC  &kp LG(C_BRI_UP)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &kp LS(LG(NUMBER_3))                        &none   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &none
+&none          &kp LEFT_SHIFT    &kp LEFT_ALT       &kp LEFT_WIN            &kp LEFT_CONTROL      &none          &none  &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
+&none          &none             &none              &kp C_BACKLIGHT_TOGGLE  &none                 &none          &none  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
+&none          &none             &none              &none                   &none                 &kp SPACE      &none  &kp N0                                            &none
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
-        NUM {
+        SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp NON_US_BACKSLASH  &kp GRAVE      &kp LA(LG(PIPE))  &kp DOLLAR    &kp PERCENT                            &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &none
+&kp EXCLAMATION       &kp AT_SIGN    &kp HASH          &kp LEFT_WIN  &kp PLUS     &none          &none      &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
+&none                 &kp AMPERSAND  &kp PIPE          &kp LCTRL     &none        &none          &none      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
+&none                 &none          &none             &none         &none        &kp SPACE      &kp ENTER  &none                                                                       &none
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE  &none           &none         &none         &none                                       &kp LG(LEFT_ARROW)      &kp LA(LEFT_ARROW)  &kp UP          &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)
+&kp LG(A)   &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL  &none          &none      &kp LS(LG(V))           &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none
+&kp LG(Z)   &kp LG(X)       &kp LG(C)     &kp LG(V)     &none             &kp TAB        &none      &kp LA(LG(LEFT_ARROW))  &kp LC(LEFT_ARROW)  &none           &kp LC(RIGHT_ARROW)  &kp LA(LG(RIGHT_ARROW))
+&none       &none           &none         &none         &kp LG(S)         &kp SPACE      &kp ENTER  &none                                                                            &none
             >;
         };
 
