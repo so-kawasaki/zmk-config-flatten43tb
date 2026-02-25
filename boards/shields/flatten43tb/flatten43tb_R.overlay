@@ -44,6 +44,19 @@
               &trans         // Y+
             >;
         };
+
+        dot_window_mover {
+            layers = <8>;
+            input-processors = <
+                &zip_xy_to_key_mapper
+            >;
+            bindings = <
+              &kp LALT(LGUI(LEFT))
+              &kp LALT(LGUI(RIGHT))
+              &trans
+              &trans
+            >;
+        };
     };
 };
 
