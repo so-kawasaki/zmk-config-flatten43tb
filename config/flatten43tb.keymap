@@ -105,10 +105,10 @@
 
         NUMBER {
             bindings = <
-&kp C_BRI_DEC  &kp LG(C_BRI_UP)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &kp LS(LG(NUMBER_3))                        &none   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &none
-&none          &kp LEFT_SHIFT    &kp LEFT_ALT       &kp LEFT_WIN            &kp LEFT_CONTROL      &none          &none  &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
-&none          &none             &none              &kp C_BACKLIGHT_TOGGLE  &none                 &none          &none  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
-&none          &none             &none              &none                   &none                 &kp SPACE      &none  &kp N0                                            &none
+&kp C_BRI_DEC  &kp C_BRI_UP    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &kp LS(LG(NUMBER_3))                        &none   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &none
+&none          &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_WIN            &kp LEFT_CONTROL      &none          &none  &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
+&none          &none           &none              &kp C_BACKLIGHT_TOGGLE  &none                 &none          &none  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
+&none          &none           &none              &none                   &none                 &kp SPACE      &none  &kp N0                                            &none
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
