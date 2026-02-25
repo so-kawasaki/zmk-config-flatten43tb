@@ -47,11 +47,13 @@
         scroll {
             bindings = <&mo 5>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         scroll {
             bindings = <&mo 5>;
             key-positions = <13 12>;
+            layers = <0>;
         };
     };
 
