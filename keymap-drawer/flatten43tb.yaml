@@ -46,7 +46,7 @@ layers:
   - Ctl+UP ARROW
   NUMBER:
   - BRI DEC
-  - Gui+BRI UP
+  - BRI UP
   - VOLUME DOWN
   - VOLUME UP
   - Sft+Gui+3
