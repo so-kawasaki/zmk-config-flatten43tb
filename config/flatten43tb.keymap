@@ -47,13 +47,11 @@
         scroll1 {
             bindings = <&mo 5>;
             key-positions = <19 20>;
-            layers = <0>;
         };
 
         scroll2 {
             bindings = <&mo 5>;
             key-positions = <13 12>;
-            layers = <0>;
         };
     };
 
@@ -148,7 +146,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &to 3                           &trans
             >;
         };
 
