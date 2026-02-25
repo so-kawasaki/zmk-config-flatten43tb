@@ -44,19 +44,6 @@
               &trans         // Y+
             >;
         };
-
-        dot_window_mover {
-            layers = <8>;
-            input-processors = <
-                &zip_xy_to_key_mapper
-            >;
-            bindings = <
-              &kp LA(LG(LEFT))
-              &kp LA(LG(RIGHT))
-              &trans
-              &trans
-            >;
-        };
     };
 };
 
