@@ -39,10 +39,10 @@ layers:
   - ''
   - ''
   - BACKSPACE
-  - {t: LANGUAGE 1, h: NUMBER}
+  - {t: LANGUAGE 2, h: NUMBER}
   - {t: '&to_layer_0 SPACE', h: SYMBOL}
   - ENTER
-  - {t: LANGUAGE 2, h: ARROW}
+  - {t: LANGUAGE 1, h: ARROW}
   - Ctl+UP ARROW
   NUMBER:
   - BRI DEC
