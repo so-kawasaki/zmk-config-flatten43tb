@@ -51,8 +51,8 @@
                 &zip_xy_to_key_mapper
             >;
             bindings = <
-              &kp LALT(LGUI(LEFT))
-              &kp LALT(LGUI(RIGHT))
+              &kp LA(LG(LEFT))
+              &kp LA(LG(RIGHT))
               &trans
               &trans
             >;
