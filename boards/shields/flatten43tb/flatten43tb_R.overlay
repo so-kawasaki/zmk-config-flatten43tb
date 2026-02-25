@@ -31,6 +31,19 @@
                 &zip_scroll_scaler 1 8                        // スクロール感度調整
             >;
         };
+
+        window_mover {
+            layers = <7>;
+            input-processors = <
+                &zip_xy_to_key_mapper
+            >;
+            bindings = <
+              &kp LC(LEFT)   // X-
+              &kp LC(RIGHT)  // X+
+              &trans         // Y-
+              &trans         // Y+
+            >;
+        };
     };
 };
 
