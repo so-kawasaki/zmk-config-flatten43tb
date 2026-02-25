@@ -33,7 +33,7 @@ layers:
   - N
   - M
   - {t: ',', h: window-move}
-  - {t: ., h: tab-move}
+  - .
   - /
   - ''
   - ''
@@ -385,7 +385,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
