@@ -150,11 +150,11 @@ layers:
   - LEFT CONTROL
   - ''
   - ''
-  - Sft+Gui+V
+  - Ctl+LEFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - ''
+  - Ctl+RIGHT
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -163,9 +163,9 @@ layers:
   - TAB
   - ''
   - Alt+Gui+LEFT ARROW
-  - Ctl+LEFT ARROW
+  - Sft+Gui+V
   - ''
-  - Ctl+RIGHT ARROW
+  - ''
   - Alt+Gui+RIGHT ARROW
   - ''
   - ''
