@@ -126,8 +126,8 @@
         ARROW {
             bindings = <
 &kp ESCAPE  &none           &none         &none         &none                                       &kp LG(LEFT_ARROW)      &kp LA(LEFT_ARROW)  &kp UP          &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)
-&kp LG(A)   &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL  &none          &none      &kp LS(LG(V))           &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none
-&kp LG(Z)   &kp LG(X)       &kp LG(C)     &kp LG(V)     &none             &kp TAB        &none      &kp LA(LG(LEFT_ARROW))  &kp LC(LEFT_ARROW)  &none           &kp LC(RIGHT_ARROW)  &kp LA(LG(RIGHT_ARROW))
+&kp LG(A)   &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL  &none          &none      &kp LC(LEFT)            &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LC(RIGHT)
+&kp LG(Z)   &kp LG(X)       &kp LG(C)     &kp LG(V)     &none             &kp TAB        &none      &kp LA(LG(LEFT_ARROW))  &kp LS(LG(V))       &none           &none                &kp LA(LG(RIGHT_ARROW))
 &none       &none           &none         &none         &kp LG(S)         &kp SPACE      &kp ENTER  &none                                                                            &none
             >;
         };
