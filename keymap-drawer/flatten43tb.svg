@@ -501,6 +501,16 @@ path.combo {
 <g transform="translate(756, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-SYMBOL">
@@ -668,6 +678,16 @@ path.combo {
 <g transform="translate(756, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-ARROW">
@@ -861,6 +881,16 @@ path.combo {
 <g transform="translate(756, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-MOUSE">
@@ -1044,6 +1074,16 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-SCROLL">
@@ -1211,14 +1251,26 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(532, 196)" class="key trans keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(532, 196)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#ARROW">
+<text x="0" y="0" class="key tap layer-activator">ARROW</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(756, 196)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-6">
@@ -1405,6 +1457,16 @@ path.combo {
 <tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan><tspan x="0" dy="1.2em">ALL</tspan>
 </text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="168" y="84" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 </svg>
