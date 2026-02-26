@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
+  - Gui+C
   - TAB
-  - ''
   - N
   - M
   - ','
@@ -114,7 +114,7 @@ layers:
   - ''
   - '&'
   - '|'
-  - LCTRL
+  - Sft+6
   - ''
   - ''
   - ''
@@ -138,11 +138,11 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+LEFT ARROW
-  - Alt+LEFT ARROW
+  - Alt+Gui+LEFT ARROW
+  - Ctl+LEFT ARROW
   - UP
-  - Alt+RIGHT ARROW
-  - Gui+RIGHT ARROW
+  - Ctl+RIGHT ARROW
+  - Gui+Alt+RIGHT ARROW
   - Gui+A
   - LEFT SHIFT
   - LEFT ALT
@@ -150,11 +150,11 @@ layers:
   - LEFT CONTROL
   - ''
   - ''
-  - Ctl+LEFT
+  - Gui+LEFT
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Ctl+RIGHT
+  - Gui+RIGHT
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -162,11 +162,11 @@ layers:
   - ''
   - TAB
   - ''
-  - Alt+Gui+LEFT ARROW
+  - ''
   - Sft+Gui+V
   - ''
   - ''
-  - Alt+Gui+RIGHT ARROW
+  - ''
   - ''
   - ''
   - ''
