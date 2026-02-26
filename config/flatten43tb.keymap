@@ -117,9 +117,9 @@
         SYMBOL {
             bindings = <
 &kp NON_US_BACKSLASH  &kp GRAVE      &kp LA(LG(PIPE))  &kp DOLLAR        &kp PERCENT                            &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &none
-&kp EXCLAMATION       &kp AT_SIGN    &kp HASH          &kp LEFT_WIN      &kp PLUS     &none          &none      &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
+&kp EXCLAMATION       &kp AT_SIGN    &kp HASH          &none             &kp PLUS     &none          &none      &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
 &none                 &kp AMPERSAND  &kp PIPE          &kp LS(NUMBER_6)  &none        &none          &none      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
-&none                 &none          &none             &none             &none        &kp SPACE      &kp ENTER  &none                                                                       &none
+&none                 &none          &none             &none             &none        &kp SPACE      &kp ENTER  &kp LEFT_WIN                                                                &none
             >;
         };
 
