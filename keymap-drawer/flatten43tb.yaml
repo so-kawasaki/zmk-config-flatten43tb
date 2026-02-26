@@ -102,7 +102,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - LEFT WIN
+  - ''
   - +
   - ''
   - ''
@@ -130,7 +130,7 @@ layers:
   - ''
   - {t: SPACE, type: held}
   - ENTER
-  - ''
+  - LEFT WIN
   - ''
   ARROW:
   - ESCAPE
