@@ -49,11 +49,6 @@
             bindings = <&mo 5>;
             key-positions = <19 20>;
         };
-
-        scroll2 {
-            bindings = <&mo 5>;
-            key-positions = <13 12>;
-        };
     };
 
     macros {
