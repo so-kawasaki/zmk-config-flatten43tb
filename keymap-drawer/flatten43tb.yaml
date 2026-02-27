@@ -35,9 +35,9 @@ layers:
   - ','
   - .
   - /
-  - ''
-  - ''
-  - ''
+  - '&mkp MB1'
+  - DOWN
+  - UP ARROW
   - BACKSPACE
   - {t: LANGUAGE 2, h: NUMBER}
   - {t: '&to_layer_0 SPACE', h: SYMBOL}
@@ -208,10 +208,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
