@@ -35,12 +35,12 @@ layers:
   - ','
   - .
   - /
-  - '&mkp MB1'
   - DOWN
   - UP ARROW
   - BACKSPACE
   - {t: LANGUAGE 2, h: NUMBER}
-  - {t: '&to_layer_0 SPACE', h: SYMBOL}
+  - {t: SPACE, h: SYMBOL}
+  - '&mkp MB1'
   - ENTER
   - {t: LANGUAGE 1, h: ARROW}
   - '&mkp MB1'
@@ -82,9 +82,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
   - SPACE
+  - ''
   - ''
   - '0'
   - ''
@@ -127,8 +127,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {t: SPACE, type: held}
+  - ''
   - ENTER
   - LEFT WIN
   - ''
@@ -170,9 +170,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - Gui+S
   - SPACE
+  - ''
   - ENTER
   - {type: held}
   - ''
@@ -211,12 +211,12 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&to_layer_0 LANGUAGE_1', h: ARROW}
   - {t: ▽, type: trans}
