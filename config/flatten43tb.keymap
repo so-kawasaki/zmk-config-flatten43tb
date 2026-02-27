@@ -117,17 +117,17 @@
 
         SYMBOL {
             bindings = <
-&kp NON_US_BACKSLASH  &kp GRAVE      &kp LA(LG(PIPE))  &kp DOLLAR        &kp PERCENT                        &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &none
-&kp EXCLAMATION       &kp AT_SIGN    &kp HASH          &none             &kp PLUS     &none      &none      &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
-&none                 &kp AMPERSAND  &kp PIPE          &kp LS(NUMBER_6)  &none        &none      &none      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
-&none                 &none          &none             &none             &kp SPACE    &none      &kp ENTER  &kp LEFT_WIN                                                                &none
+&kp NON_US_BACKSLASH  &kp GRAVE    &kp LA(LG(PIPE))  &none       &none                                 &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PIPE
+&kp EXCLAMATION       &kp AT_SIGN  &kp HASH          &kp DOLLAR  &kp PERCENT     &none      &none      &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
+&none                 &none        &kp LS(NUMBER_6)  &kp TILDE   &kp UNDERSCORE  &none      &none      &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
+&none                 &none        &none             &none       &kp SPACE       &none      &kp ENTER  &kp LEFT_WIN                                                              &none
             >;
         };
 
         ARROW {
             bindings = <
 &kp ESCAPE      &none      &none         &none         &none                                     &kp LA(LG(LEFT_ARROW))  &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &kp LG(LA(RIGHT_ARROW))
-&kp LG(A)       &none      &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL  &none        &none      &kp LG(LEFT)            &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT)
+&kp LG(A)       &kp LG(S)  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL  &none        &none      &kp LG(LEFT)            &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT)
 &kp LG(Z)       &kp LG(X)  &kp LG(C)     &kp LG(V)     &none             &kp TAB      &none      &none                   &kp LS(LG(V))       &none           &none                &none
 &kp LEFT_SHIFT  &none      &none         &kp LG(S)     &kp SPACE         &none        &kp ENTER  &none                                                                            &kp RIGHT_SHIFT
             >;
