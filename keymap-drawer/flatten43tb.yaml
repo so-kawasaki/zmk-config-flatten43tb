@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LEFT SHIFT}
+  - S
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT WIN}
   - {t: G, h: LEFT CONTROL}
@@ -21,7 +21,7 @@ layers:
   - {t: H, h: RIGHT CONTROL}
   - {t: J, h: RIGHT WIN}
   - {t: K, h: RIGHT ALT}
-  - {t: L, h: RIGHT SHIFT}
+  - L
   - '-'
   - Z
   - X
@@ -35,15 +35,15 @@ layers:
   - ','
   - .
   - /
+  - LEFT SHIFT
   - DOWN
-  - UP ARROW
   - BACKSPACE
   - {t: LANGUAGE 2, h: NUMBER}
   - {t: SPACE, h: SYMBOL}
   - '&mkp MB1'
   - ENTER
   - {t: LANGUAGE 1, h: ARROW}
-  - '&mkp MB1'
+  - RIGHT SHIFT
   NUMBER:
   - BRI DEC
   - BRI UP
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
