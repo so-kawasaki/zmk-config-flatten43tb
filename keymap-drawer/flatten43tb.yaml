@@ -170,8 +170,8 @@ layers:
   - LEFT SHIFT
   - ''
   - ''
-  - Gui+TAB
-  - Ctl+TAB
+  - ''
+  - ''
   - Gui+1
   - ENTER
   - {type: held}
