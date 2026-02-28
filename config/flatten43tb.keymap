@@ -114,7 +114,7 @@
             bindings = <
 &kp NON_US_BACKSLASH  &kp GRAVE    &kp LA(LG(PIPE))  &none       &none                                 &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PIPE
 &kp EXCLAMATION       &kp AT_SIGN  &kp HASH          &kp DOLLAR  &kp PERCENT     &none      &none      &kp EQUAL     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp COLON
-&none                 &none        &kp LS(NUMBER_6)  &kp TILDE   &kp UNDERSCORE  &none      &none      &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
+&kp QUESTION          &none        &kp LS(NUMBER_6)  &kp TILDE   &kp UNDERSCORE  &none      &none      &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp DOUBLE_QUOTES
 &none                 &none        &none             &none       &kp SPACE       &none      &kp ENTER  &kp LEFT_WIN                                                              &none
             >;
         };
