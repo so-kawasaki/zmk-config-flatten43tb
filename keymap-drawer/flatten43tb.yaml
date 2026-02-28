@@ -134,10 +134,10 @@ layers:
   - ''
   ARROW:
   - ESCAPE
+  - Gui+W
   - ''
-  - ''
-  - ''
-  - ''
+  - Gui+R
+  - Gui+T
   - Alt+Gui+LEFT ARROW
   - Ctl+LEFT ARROW
   - UP
@@ -159,7 +159,7 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - ''
+  - Gui+B
   - TAB
   - ''
   - ''
@@ -170,8 +170,8 @@ layers:
   - LEFT SHIFT
   - ''
   - ''
-  - Gui+S
-  - SPACE
+  - ''
+  - ''
   - ''
   - ENTER
   - {type: held}
